@@ -14,8 +14,6 @@ import MainCard from 'components/MainCard';
 // charts
 import ApexAreaChart from 'sections/charts/apexchart/ApexAreaChart';
 
-// ==============================|| SAMPLE PAGE ||============================== //
-
 export default function SamplePage() {
   return (
     <Grid container spacing={3}>
