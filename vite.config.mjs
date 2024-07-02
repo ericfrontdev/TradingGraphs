@@ -8,7 +8,6 @@ import jsconfigPaths from 'vite-jsconfig-paths';
 
 export default defineConfig({
   plugins: [react(), jsconfigPaths()],
-  base: '/trading-graphs',
   define: {
     global: 'window'
   },

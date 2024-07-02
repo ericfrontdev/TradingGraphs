@@ -56,7 +56,7 @@ export default function Profile() {
   const theme = useTheme();
   const navigate = useNavigate();
 
-  const { logout, user } = useAuth();
+  const { logout } = useAuth();
   const handleLogout = async () => {
     try {
       await logout();
@@ -110,7 +110,7 @@ export default function Profile() {
         <Stack direction="row" spacing={1.25} alignItems="center" sx={{ p: 0.5 }}>
           <Avatar alt="profile user" src={avatar1} size="sm" />
           <Typography variant="subtitle1" sx={{ textTransform: 'capitalize' }}>
-            {user?.name}
+            Eric Ouellette
           </Typography>
         </Stack>
       </ButtonBase>
@@ -143,9 +143,9 @@ export default function Profile() {
                         <Stack direction="row" spacing={1.25} alignItems="center">
                           <Avatar alt="profile user" src={avatar1} sx={{ width: 32, height: 32 }} />
                           <Stack>
-                            <Typography variant="h6">{user?.name}</Typography>
+                            <Typography variant="h6">Eric Ouellette</Typography>
                             <Typography variant="body2" color="text.secondary">
-                              UI/UX Designer
+                              Front-End Developer
                             </Typography>
                           </Stack>
                         </Stack>
