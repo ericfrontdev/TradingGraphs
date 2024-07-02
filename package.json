@@ -2,6 +2,7 @@
   "name": "mantis-material-react",
   "version": "3.2.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@ant-design/colors": "^7.0.2",
     "@ant-design/icons": "^5.3.1",
